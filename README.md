@@ -1,6 +1,6 @@
 # Présentation sur la blockchain et les cryptomonnaies
 
-[![CC BY 4.0][cc-by-shield]][cc-by]
+[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
 Cette présentation aborde dans un premier temps la blockchain et le Bitcoin d'un point de vue technique, puis dans un second temps essaye de tracer une esquisse de l'écosystème économique actuel des cryptomonnaies ainsi que son impact sur la crise climatique.
 
@@ -27,8 +27,8 @@ Thibault Ayanides
 
 ## Licence
 
-[![CC BY 4.0][cc-by-image]][cc-by]
+[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
 
-[cc-by]: http://creativecommons.org/licenses/by/4.0/
-[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
-[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
