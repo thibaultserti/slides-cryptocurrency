@@ -34,6 +34,8 @@ revealOptions:
  - Defi (AAVE, COMP, UNI)
  - Streaming et vidéo (Theta)
  - Stockage (FIL)
+ - Paiement transfrontalier (XLM, XRP)
+ - Paiement anonyme (XMR, Zcash)
 7. Les altcoins
 8. L'économie des cryptomonnaies
 9. Le Bitcoin soumis à la crise énergétique
