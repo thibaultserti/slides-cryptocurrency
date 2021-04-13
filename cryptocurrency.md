@@ -25,10 +25,18 @@ revealOptions:
 4. La blockchain Bitcoin
 5. Le Bitcoin
 6. Les applications de la blockchain
+ - NFT
+ - Gaming (UOS, ENJ)
+ - Paris sportif (CHZ)
+ - Token de gouvernance (BNB, CRO)
+ - Tokenization d'action (TSLA)
+ - Identité (Uniris)
+ - Defi (AAVE, COMP, UNI)
+ - Streaming et vidéo (Theta)
+ - Stockage (FIL)
 7. Les altcoins
 8. L'économie des cryptomonnaies
-9. Les NFTs
-10. Le Bitcoin soumis à la crise énergétique
+9. Le Bitcoin soumis à la crise énergétique
 
 ---
 
