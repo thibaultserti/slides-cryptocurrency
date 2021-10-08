@@ -31,6 +31,8 @@ jobs:
       - name: Upload artefact
         uses: softprops/action-gh-release@v1
         with:
+          draft: true
+          prerelease: false
           files: |
             cryptocurrency.pdf
         env:
