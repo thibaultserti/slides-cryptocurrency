@@ -30,6 +30,7 @@ Thibault Ayanides
 ### 3. Les Altcoins
 ### 4. Investissements ?
 
+
 ---
 
 ## Blockchain
@@ -530,3 +531,4 @@ En vrac tous les trucs dont je veux parler :
 ---
 
 ## Mes referals 🤑
+
