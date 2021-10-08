@@ -376,7 +376,7 @@ Exemples:
 
 <div class="row">
   <div class="column">
-    <img src="img/evolution_mining.png" height=100%/>
+    <img src="img/evolution_mining.png" height=90%/>
   </div>
   <div class="column">
     <ul>
@@ -441,7 +441,7 @@ Que se passe-t-il si les blocs n'arrivent pas dans le bonne ordre et que la bloc
 **Les mécanismes de consensus sont un élément capital pour assurer d'une homogénéité de chaque copié de la blockchain détenue par les nœuds !**
 
 ----
-
+Qui pense que le BTC monte sans les particuliers et qu'on est sur deuxième top, hmm pas moi.
 ## Une transaction Bitcoin
 
 <!-- .slide: class="big-slide" -->
