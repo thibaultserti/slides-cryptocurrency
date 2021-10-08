@@ -372,6 +372,8 @@ Exemples:
 ---
 ## Un hardware très spécialisé
 
+<!-- .slide: class="big-slide" -->
+
 <div class="row">
   <div class="column">
     <img src="img/evolution_mining.png" height=100%/>
@@ -531,4 +533,3 @@ En vrac tous les trucs dont je veux parler :
 ---
 
 ## Mes referals 🤑
-
