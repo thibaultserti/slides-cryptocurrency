@@ -467,6 +467,7 @@ Exemples:
 - Difficulté ajustée tous les 2016 blocs(2 semaines environ)
 - La blockchain pèse 370 Go (2021), la taille augmente de 1Go tous les 2 mois
 - https://www.blockchain.com/explorer
+
 ---
 
 ## Mécanismes de consensus
@@ -701,5 +702,4 @@ En vrac tous les trucs dont je veux parler :
 - **ETH** : 0xf39b36242bd9E3aa1269C40367369e012936342B
 - **BNB** : bnb1w6hgq4tgde0my9nrasexqy2q02maqx9v3q2752
 - **EGLD** : erd1xy53cvkp2vajqe6szs3p2xayltvxp6twu8c3rhreu5wczlv6hxwse99w25
-
-(ou simplement @thibaultserti)
+- **XLM** : GDGD3ZDAWDJN7MZDIXGUQ2OAKGNFQ6TXGPWZMV6YKDVVHOSGBIZOUFA4
