@@ -25,11 +25,47 @@ Thibault Ayanides
 
 ## Sommaire
 
+<!-- .slide: class="align-left big-slide" -->
+
 ### 1. La blockchain
+
+#### 1.1 Blocs, fonctions de hachage, signature
+
+#### 1.2 Arbre de merkle et anatomie des blocs
+
 ### 2. Le Bitcoin
+
+#### 2.1 Cryptomonnaies
+
+#### 2.2 Les wallets
+
+#### 2.3 Décentralisation
+
+#### 2.4 Cheminement d'une transaction
+
+#### 2.5 Minage
+
+#### 2.6 Dimensionnement du Bitcoin
+
+#### 2.7 Anonymat
+
+#### 2.8 Critiques
+
+#### 2.9 Limitations du Bitcoin
+
+---
+
+## Sommaire
+
+<!-- .slide: class="align-left big-slide" -->
+
 ### 3. Les Altcoins
+
 ### 4. Investissements ?
 
+---
+
+# 1. La blockchain
 
 ---
 
@@ -134,6 +170,10 @@ Sans ça chaque utilisateur de la blockchain devrait la stocker en local !
 
 ---
 
+# 2. Le Bitcoin
+
+---
+
 ## Cryptomonnaies
 
 - Cryptoactifs, cryptodevises, monnaies numériques, ... (nom sujet à débat)
@@ -169,6 +209,7 @@ Plusieurs objectifs initiaux :
 ## Bitcoin
 
 Une cryptomonnaie parmi beaucoup d'autres !
+
 <div class="row">
   <div class="column">
     <ul>
@@ -276,7 +317,7 @@ Exemples:
   </div>
 </div>
 
-----
+---
 
 ## Une transaction Bitcoin
 
@@ -322,7 +363,7 @@ Exemples:
 - Parcours de l’entièreté de la blockchain pour retrouver le bitcoin en question et vérifier s’il appartient bien à la même clef
 - La possession des bitcoins se fait à travers l’historique des transactions !
 
-----
+---
 
 ## Une transaction Bitcoin
 
@@ -370,6 +411,7 @@ Exemples:
 </div>
 
 ---
+
 ## Un hardware très spécialisé
 
 <!-- .slide: class="big-slide" -->
@@ -400,8 +442,7 @@ Exemples:
   </div>
 </div>
 
-----
-
+---
 
 ## Une transaction Bitcoin
 
@@ -417,31 +458,34 @@ Exemples:
 
 ## Quelques datas sur le Bitcoin
 
-- La fonction de hachage utilisée est *sha256*
+- La fonction de hachage utilisée est _sha256_
 - Actuellement la récompense est de 6.25 BTC par bloc miné (divisé par 2 tous les 4 ans)
 - 21 millions de Bitcoin maximum
 - 1 bloc contient entre 1000 et 2000 transactions (limité par un taille max de bloc de 1Mo)
 - 1 bloc toutes les 10 minutes
 - Donc 1 moyenne de 7 transations par seconde
 - Difficulté ajustée tous les 2016 blocs(2 semaines environ)
-- La blockchain pèse 370 Go (2021)
-
+- La blockchain pèse 370 Go (2021), la taille augmente de 1Go tous les 2 mois
+- https://www.blockchain.com/explorer
 ---
+
 ## Mécanismes de consensus
 
 Que se passe-t-il si les blocs n'arrivent pas dans le bonne ordre et que la blockchain se "désynchronise" ?
 
 - Le protocole impose de ne conserver que la chaîne qui a demandé le plus de travail
   - celle ci devient la chaine principale
-  - les autres sont des *forks*
+  - les autres sont des _forks_
 - On attend un certain nombre de confirmations (généralement 6) pour considérer que la transaction a bien été ajoutée à la chaîne principale
 
 <br>
 
 **Les mécanismes de consensus sont un élément capital pour assurer d'une homogénéité de chaque copié de la blockchain détenue par les nœuds !**
 
-----
+---
+
 Qui pense que le BTC monte sans les particuliers et qu'on est sur deuxième top, hmm pas moi.
+
 ## Une transaction Bitcoin
 
 <!-- .slide: class="big-slide" -->
@@ -471,6 +515,7 @@ Qui pense que le BTC monte sans les particuliers et qu'on est sur deuxième top,
 L'historique de toutes les transactions est dans la blockchain !
 
 ---
+
 ## Avantages et limites du protocle Bitcoin
 
 <div class="row">
@@ -493,15 +538,123 @@ L'historique de toutes les transactions est dans la blockchain !
   </div>
 </div>
 
+---
+
+# Critiques
+
+---
+
+## Le Bitcoin est-il une pyramide de Ponzi
+
+---
+
+## Le Bitcoin participe au financement du terrorisme
+
+---
+
+## Proof of Work et énergie
+
+---
+
+## Le Bitcoin est l'aboutissement d'un système ultracapitaliste
+
+---
+
+## Limitations du Bitcoin
+
+---
+
+# 3. Les Altcoins
+
+---
+
+## Des altcoins à foison
+
+---
+
+## Ethereum
+
+---
+
+## Une nouvelle méthode de consensus
+
+---
+
+## Le staking
+
+---
+
+## Les Smart Contracts
+
+---
+
+## De nouveaux usages
+
+---
+
+## La Defi
+
+---
+
+## Les NFT
+
+---
+
+## Les PlayToEarn
+
+---
+
+## Les Stablecoins
+
+---
+
+## Les limites d'Ethereum
+
+---
+
+## Les layers 2
+
+---
+
+## L'apparition de nouvelles blockchains
+
+---
+
+## Quelques projets en vrac
+
+---
+
+# 4. Investissements ?
+
+---
+
+## Les échangeurs centralisés (CEX)
+
+---
+
+## Les échangeurs décentralisés (DEX)
+
+---
+
+## Cyclicité du Bitcoin et des cryptomonnaies
+
+---
+
+## Comment repérer les bons projets ?
+
+---
+
+## Stratégies d'investissements
 
 ---
 
 ## Random
+
 <!-- .slide: class="big-slide" -->
 
 En vrac tous les trucs dont je veux parler :
 
-- Proof of work et énergie
+- attaque des 51%
 - ETH, BSC (etherscan, bscscan)
 - les générations de blockchains (présentation de qqs blockchains d'infrastructure)
 - eth 2.0
@@ -533,3 +686,20 @@ En vrac tous les trucs dont je veux parler :
 ---
 
 ## Mes referals 🤑
+
+<!-- .slide: class="big-slide" -->
+
+- **Swissborg** : https://join.swissborg.com/r/thibauOYKV
+- **Nexo** : https://nexo.io/ref/hxkgumrvxz?src=android-link
+- **Crypto.com App** : https://crypto.com/app/7p7jkbp5sj
+- **Crypto.com Exchange** : https://crypto.com/exch/7p7jkbp5sj
+- **Binance** : https://accounts.binance.com/fr/register?ref=81135148
+- **FTX** : https://ftx.com/#a=12460172
+- **Maiar** : https://get.maiar.com/referral/tp1qokr73z
+
+- **BTC** : bc1qyk62saxsgl5ng2mk54ue6ftgudkjyg0a0x3xrk
+- **ETH** : 0xf39b36242bd9E3aa1269C40367369e012936342B
+- **BNB** : bnb1w6hgq4tgde0my9nrasexqy2q02maqx9v3q2752
+- **EGLD** : erd1xy53cvkp2vajqe6szs3p2xayltvxp6twu8c3rhreu5wczlv6hxwse99w25
+
+(ou simplement @thibaultserti)
