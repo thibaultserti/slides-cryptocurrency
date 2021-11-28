@@ -485,8 +485,6 @@ Que se passe-t-il si les blocs n'arrivent pas dans le bonne ordre et que la bloc
 
 ---
 
-Qui pense que le BTC monte sans les particuliers et qu'on est sur deuxième top, hmm pas moi.
-
 ## Une transaction Bitcoin
 
 <!-- .slide: class="big-slide" -->
@@ -545,7 +543,29 @@ L'historique de toutes les transactions est dans la blockchain !
 
 ---
 
-## Le Bitcoin est-il une pyramide de Ponzi
+## Le Bitcoin est une pyramide de Ponzi
+
+<div class="row">
+  <div class="column">
+    <h3>Vente pyramidale</h3>
+    <ul>
+      <li>Promesse de gain financier</li>
+      <li>Pourcentage touché sur le recrutement de nouvelles personnes</li>
+      <li><b>Caractéristiques</b> : recrutement, secret, payement à l'entrée</li>
+      <img src="img/pyramid_scheme.png" width=60%>
+    </ul>
+  </div>
+  <div class="column">
+    <h3>Pyramide de Ponzi</h3>
+    <ul>
+      <li>Rémunération des anciens clients par les nouveaux </li>
+      <li>Promesse de rendement élevé</li>
+      <li><b>Caractéristiques</b> : recrutement, secret, payement à l'entrée</li>
+      <img src="img/ponzi_scheme.png" width=60%>
+    </ul>
+  </div>
+</div>
+
 
 ---
 
