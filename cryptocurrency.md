@@ -547,25 +547,38 @@ L'historique de toutes les transactions est dans la blockchain !
 
 <div class="row">
   <div class="column">
-    <h3>Vente pyramidale</h3>
-    <ul>
-      <li>Promesse de gain financier</li>
-      <li>Pourcentage touché sur le recrutement de nouvelles personnes</li>
-      <li><b>Caractéristiques</b> : recrutement, secret, payement à l'entrée</li>
-      <img src="img/pyramid_scheme.png" width=60%>
-    </ul>
-  </div>
-  <div class="column">
     <h3>Pyramide de Ponzi</h3>
     <ul>
       <li>Rémunération des anciens clients par les nouveaux </li>
-      <li>Promesse de rendement élevé</li>
+      <li>Promesse de rendement élevé sans risque</li>
       <li><b>Caractéristiques</b> : recrutement, secret, payement à l'entrée</li>
       <img src="img/ponzi_scheme.png" width=60%>
     </ul>
   </div>
+  <div class="column">
+    <h3>Et le Bitcoin, alors ?</h3>
+    <ul>
+      <li>Communautés <em>to ze moon</em> et <em>have fun staying poor</em> </li>
+      <li>Premiers entrant revendent leur BTC aux nouveaux </li>
+      <li>Valeur très volatile en faisant un actif hautement spéculatif </li>
+      <li>Utilité en dehors de la spéculation </li>
+      <li>Technlogie sous-jacente</li>
+      <li>Code ouvert, pas de secret </li>
+    </ul>
+  </div>
 </div>
 
+---
+
+## Le Bitcoin est-il une monnaie ?
+
+Définition d'Aristote
+
+<ul>
+  <li>Réserve de valeur</li>
+  <li>Unité de compte</li>
+  <li>Instrument d'échange</li>
+</ul>
 
 ---
 
