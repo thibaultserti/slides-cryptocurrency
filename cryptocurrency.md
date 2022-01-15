@@ -703,3 +703,8 @@ En vrac tous les trucs dont je veux parler :
 - **EGLD** : erd1xy53cvkp2vajqe6szs3p2xayltvxp6twu8c3rhreu5wczlv6hxwse99w25
 
 (ou simplement @thibaultserti)
+
+## À mentionner
+
+- les oracles
+- les blockchains privées (hyperledger, ...)
