@@ -500,6 +500,12 @@ Que se passe-t-il si les blocs n'arrivent pas dans le bonne ordre et que la bloc
 
 ## L'attaque des 51%
 
+- Attaque de double dépense : réécriture de la blockchain
+- Principale vulnérabilité du consensus Proof of Work
+- Au vu de la puissance de hashage actuelle, un telle attaque coûterait 10 milliards en matériel et environ 5 millions par heure
+- Déjà arrivée sur certaines cryptomonnaies (ETC, BTG)
+- Objectifs : casser la confiance, réécrire l'historique
+
 ---
 
 ## Le bitcoin et l'anonymat
@@ -739,8 +745,49 @@ Cette comparaison est également biaisée car le système bancaire apporte des c
 
 ## Des altcoins à foison
 
+Résoudre les limitations de Bitcoin et/ou les critiques
+
+- <b>Hard fork de Bitcoin</b> : Bitcoin Cash, Bitcoin SV
+- <b>D'autres méthodes consensus</b> : Proof of Stake, Proof of Capacity, Proof of Hold, Proof of Authority ...
+- <b>Augmentation de la vitesse</b> : Stellar, Ripple, les layers 1 alternatifs
+- <b>Augmentation du TPS au détriment de la décentralisation</b> : Binance Smart Chain, Solana
+- <b>Privacy coin</b> : Monero
+- <b>Blockchains programmables </b>: Ethereum, Polkadot, Cosmos, Avalanche, ...
+
+Chaque altcoin entend établir un ou des cas d'utilisations spécifiques.
+
 ---
 ## CAP théorème
+
+<!-- .slide: class="big-slide" -->
+
+<div class="row">
+  <div class="column"><!-- .element: class="fragment" -->
+    <img src="img/pg_logo.png">
+  </div>
+  <div class="column">
+    <img src="img/CAP.png" height=450px width=450px>
+  </div>
+  <div class="column"><!-- .element: class="fragment" -->
+    <img src="img/mongo_logo.png">
+  </div>
+</div>
+<div class="row">
+  <div class="column">
+  </div>
+  <div class="column"><!-- .element: class="fragment" -->
+    <img src="img/cassandra_logo.png">
+    <img src="img/btc_logo.png" width=10%>
+  </div>
+  <div class="column">
+  </div>
+</div>
+<ul>
+  <li><b>Consistency</b> : tous les nœuds du système voient exactement les mêmes données au même moment</li>
+  <li><b>Availability</b> : garantie que toutes les requêtes reçoivent une réponse</li>
+  <li><b>Partition Tolerance</b> : aucune panne moins importante qu'une coupure totale du réseau ne doit empêcher le système de répondre correctement</li>
+</ul>
+
 
 ---
 
@@ -760,7 +807,15 @@ Cette comparaison est également biaisée car le système bancaire apporte des c
 
 ---
 
-## De nouveaux usages
+# De nouveaux usages
+
+---
+
+## Coins vs Tokens
+
+---
+
+## Les oracles
 
 ---
 
@@ -801,23 +856,64 @@ Cette comparaison est également biaisée car le système bancaire apporte des c
 ---
 
 ## Les échangeurs centralisés (CEX)
+<!-- .slide: class="big-slide" -->
 
+<div class="row">
+  <div class="column">
+    <ul>
+      <li>Une plateforme gère les échanges de manière centralisée : pas de transactions sur la blockchain.</li>
+      <li>Frais payées à la plateforme</li>
+      <li>Carnet d'ordres : on associe un vendeur et un acheteur</li>
+      <li><b>MAKER</b> : mettre des ordres d'achat ou de vente dans le carnet d'ordre</li>
+      <li><b>TAKER</b> : acheter ou vendre au marché dans les ordres</li>
+    </ul>
+    On ne possède pas les clés de ses cryptomonnaies
+    <div class="row">
+      <div class="column">
+        <img src="img/binance_logo.png">
+      </div>
+      <div class="column">
+        <img src="img/cdc_logo.png">
+      </div>
+      <div class="column">
+        <img src="img/ftx_logo.png">
+      </div>
+      <div class="column">
+        <img src="img/kucoin_logo.png">
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <img src="img/orders.png" width=30%>
+  </div>
+</div>
 ---
 
 ## Les échangeurs décentralisés (DEX)
+<!-- .slide: class="big-slide" -->
+
+- Utilise des pools de liquidité permettant de faire des échanges
+- Les fournisseurs de liquidité ajoutent deux cryptomonnaies en quantité (en $) égale
+- Les traders peuvent venir faire leurs échanges dans cette pool en payant des frais aux fournisseurs de liquidité
+- Géré par un smart contract
+
+<iframe data-src="https://app.uniswap.org/#/swap" width=100% height=50%>
 
 ---
 
 ## Cyclicité du Bitcoin et des cryptomonnaies
+<!-- .slide: class="big-slide" -->
 
----
+<img src="https://www.tradingview.com/x/57vUSvZs/" height=80%>
 
-## Comment repérer les bons projets ?
 
 ---
 
 ## Stratégies d'investissements
 
+- DCA (<em>Dollar Cost Average</em>) : investir un peu à intervalle de temps régulier (par exemple semaine)
+- Acheter après des grosses baisses de 50% ou plus
+- NE JAMAIS acheter quand tout le monde en parle et que la courbe est parabolique
 ---
 
 ## Random
