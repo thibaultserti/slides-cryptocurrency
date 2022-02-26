@@ -12,6 +12,8 @@ revealOptions:
 ---
 
 <link href="css/style.css" rel="stylesheet"/>
+<link href="css/tweet.css" rel="stylesheet"/>
+
 
 # Blockchain et cryptomonnaies
 
@@ -75,6 +77,8 @@ Thibault Ayanides
 - Base de données distribuée ou non
 - Registre d'enregistrement
 - Incorpore des mécanismes de sécurisation et de protection contre la falsification fondées sur la cryptographie
+- Permet l'utilisation de cryptomonnaies
+- ⚠️ On peut utiliser des technologies blockchains sans cryptomonnaies : Hyperledger
 
 <!-- .slide: data-background="./img/blockchain.png" data-background-opacity="0.2" -->
 
@@ -389,6 +393,7 @@ Exemples:
     <img src="img/mining.png" width=60%>
   </div>
 </div>
+
 ---
 
 ## Le proof of work
@@ -493,6 +498,10 @@ Que se passe-t-il si les blocs n'arrivent pas dans le bonne ordre et que la bloc
 
 ---
 
+## L'attaque des 51%
+
+---
+
 ## Le bitcoin et l'anonymat
 
 **Le Bitcoin ne permet pas l'anonymat !**
@@ -555,7 +564,7 @@ L'historique de toutes les transactions est dans la blockchain !
       <img src="img/ponzi_scheme.png" width=60%>
     </ul>
   </div>
-  <div class="column">
+  <div class="column"><!-- .element: class="fragment" -->
     <h3>Et le Bitcoin, alors ?</h3>
     <ul>
       <li>Communautés <em>to ze moon</em> et <em>have fun staying poor</em> </li>
@@ -572,29 +581,155 @@ L'historique de toutes les transactions est dans la blockchain !
 
 ## Le Bitcoin est-il une monnaie ?
 
-Définition d'Aristote
+<div class="row">
+  <div class="column">
+    <h4> Défintion </h4>
+    <ul>
+      <li>Réserve de valeur (conserve une valeur, qui a même tendance à monter)</li>
+      <li>Unité de compte (1 bitcoin = 1 part parmi les 21 millions)</li>
+      <li>Instrument d'échange (transactions)</li>
+      <br>
+    </ul>
+    <br>
+    <h4> Reproches adressés </h4>
+    <ul>
+      <li>Actif spéculatif (la spéculation sur les fiats existe, ça s'appelle le forex)</li>
+      <li>Non stabilité du cours (pourtant bolivar, lyre turque sont des monnaies)</li>
+      <li>Non contrôlé par des banques centrales</li>
+    </ul>
+  </div>
+  <div class="column">
+    <img src="img/aristote.jpg" width=60%>
+  </div>
+</div>
 
+
+---
+
+## Le Bitcoin facilite les activités illégales
+
+- 0.2 à 1 % de transactions concernant des activités illégales (blanchiment/financement du terrorisme/traffic) contre 2 à 4% pour les fiats
+- Tracabilité ! Le Bitcoin est pseudonyme. Tout est tracé sur la blockchain
+- Obligation pour les échangeurs de faire passer un KYC aux clients
+- Exemple de Silk Road <img src="img/silk_road.png" width=5%>
+- Exemple du hack de MtGox
+
+https://www.forbes.com/sites/stevenehrlich/2021/04/13/janet-yellen-bitcoin-and-crypto-fearmongers-get-pushback-from-former-cia-director/
+
+---
+
+## Le Bitcoin pollue (1)
+<!-- .slide: class="big-slide" -->
+### Consommation énergétique et émissions en eq CO<sub>2</sub>
+<div class="row">
+  <div class="column">
+    <iframe data-src="https://app.everviz.com/embed/ywoqita/" width=100% height=500px></iframe>
+    <ul>
+      <li>Grèce : 57 MT CO<sub>2</sub></li>
+      <li>0.2% à 0.25% des émissions totales</li>
+      <li>selon les rapports et les dates de 40 à 70% d'énergie renouvelable utilisée </li>
+    <ul>
+  </div>
+  <div class="column">
+    <iframe data-src="https://ars.els-cdn.com/content/image/1-s2.0-S2542435122000861-gr2.jpg" width=100% height=500px></iframe>
+  </div>
+</div>
+
+---
+
+## Le Bitcoin pollue (2)
+<!-- .slide: class="big-slide" -->
+### Rapport Digiconomist
+
+<iframe data-src="https://digiconomist.net/bitcoin-energy-consumption" width=100% height=100%></iframe>
+
+---
+## Le Bitcoin pollue (3)
+<!-- .slide: class="big-slide" -->
+
+### Hashrate et consommation
+
+
+<iframe data-src="https://api.blockchain.info/charts/preview/hash-rate.png?timespan=all&h=810&w=1440&daysAverageString=7D" width=1000px height=500px></iframe>
+
+- Les émissions en CO<sub>2</sub> sont proportionnelles au hashrate du réseau, i.e à son nombre de machine
+- Les émissions en CO<sub>2</sub> ne sont pas directement proportionnelles à l'utilisation ponctuelle du réseau
+- L'augmentation du hashrate n'augmente pas les performances du réseau
+- <em>Théoriquement</em>, la sécurité augmente avec le hashrate car l'attaque des 51% devient plus difficile pour qqn d'extérieur
+
+---
+## Le Bitcoin pollue (4)
+<!-- .slide: class="big-slide" -->
+### Debunkage des fake news ou des malhonnêtetées intellectuelles
+
+- Le Bitcoin, <b>c'est une révolution écologique</b> (utilisation de sources d'énergie renouvelables non utilisées avant, récupération de gachis électrique) : problème d'ordre de grandeur
+- Le Bitcoin est une <b>énergie verte</b> : pour débunker ça, faut débunker la finance verte donc c'est long ...
+- <b>Les banques aussi polluent</b> et même beaucoup plus : on compare des choux et des carottes, voir plus tard
+- <b>Une transaction consomme énormément</b> : instantanément, le réseau consomme autant quelque soit la quantité de transactions
+- <b>Tout le monde peut miner</b> : le minage est fait avec du matériel spécialisé professionnel, les ASICS, obscolescents très rapidement
+- Le Bitcoin <b>consomme autant que le Danemark</b> : ne permet pas de se rendre compte de l'échelle et induit un biais
+- Le Bitcoin <b>consomme moins que les appareils en veille et que les décorations de Noël</b> idem
+
+---
+## Le Bitcoin pollue (5)
+<!-- .slide: class="big-slide" -->
+
+### Bitcoin vs VISA
+
+<div class="row">
+  <div class="column">
+    <h4><img src="img/btc_logo.png" width=30%></h4>
+    <ul>
+      <li>7 TPS</li>
+      <li>1 à 2h pour la confirmation</li>
+    <ul>
+  </div>
+  <div class="column">
+   <h4><img src="img/visa_logo.png" width=30%></h4>
+    <ul>
+      <li>~1400 TPS, max 25 000 TPS</sub></li>
+      <li>~10 secondes pour la confirmation</li>
+      <li>1 à 2 millions de fois plus consommateur en énergie / émetteur de CO<sub>2</sub> que Bitcoin</li>
+    <ul>
+  </div>
+</div>
+
+---
+## Proof of Work et énergie (6)
+### Pourquoi la comparaison Bitcoin - VISA est une fraude ?
+On compare des choux et des carottes. VISA est un réseau mais contrairement à Bitcoin a besoin aussi de :
 <ul>
-  <li>Réserve de valeur</li>
-  <li>Unité de compte</li>
-  <li>Instrument d'échange</li>
+  <li>Banques 🏦</li>
+  <li>Multiples processeurs de paiements intermédiaires (Paypal, ApplePay, terminaux physiques) 💳</li>
 </ul>
 
----
+Bitcoin est un réseau et <b>une monnaie</b>. Il faut donc ajouter
 
-## Le Bitcoin participe au financement du terrorisme
+<ul>
+  <li>ATM 🏧</li>
+  <li>Monnaie physique 💵</li>
+</ul>
 
----
+Pas de data sur la consommation de tout ça, mais un calcul d'ordre de grandeur donne dans les 100 à 200 TWh (sans tenir compte des investissements).
 
-## Proof of Work et énergie
+Cette comparaison est également biaisée car le système bancaire apporte des choses que le Bitcoin n'apporte pas.
 
 ---
 
 ## Le Bitcoin est l'aboutissement d'un système ultracapitaliste
 
+### Le Bitcoin reproduit les mécanismes du système financier actuel (et ses dérives)
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I am often asked if I will “return to cryptocurrency” or begin regularly sharing my thoughts on the topic again. My answer is a wholehearted “no”, but to avoid repeating myself I figure it might be worthwhile briefly explaining why here…</p>&mdash; Jackson Palmer (@ummjackson) <a href="https://twitter.com/ummjackson/status/1415353984617914370?ref_src=twsrc%5Etfw">July 14, 2021</a></blockquote>
 ---
 
 ## Limitations du Bitcoin
+
+- Pas ou peu <b>scalable</b> (nombre fixe de blocs par minute et taille limitée d'un bloc)
+- <b>Frais fixes</b>, qui augmentent avec le nombre de transactions en cours (congestion)
+- <b>Pseudonymité</b> et transparence
+- <b>Vitesse</b> de confirmation des transactions (entre 1h et 2h)
+- Très grande difficulté à faire <b>évoluer le protocole</b> (maximalisme, décentralisation, ...)
 
 ---
 
@@ -603,6 +738,9 @@ Définition d'Aristote
 ---
 
 ## Des altcoins à foison
+
+---
+## CAP théorème
 
 ---
 
@@ -702,6 +840,7 @@ En vrac tous les trucs dont je veux parler :
 - stratégies d'investissements (DCA, support, trading, ...)
 - cyclicité du BTC et des cryptomonnaies
 - les Play2Earn
+- les oracles
 
 ---
 
@@ -716,6 +855,7 @@ En vrac tous les trucs dont je veux parler :
 - https://github.com/bitcoinbook/bitcoinbook
 - https://github.com/ethereumbook/ethereumbook
 - https://coinmarketcap.com
+- https://www.youtube.com/watch?v=0ETcLj5jBy4
 
 ---
 
