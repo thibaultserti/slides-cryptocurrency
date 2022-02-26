@@ -876,3 +876,10 @@ En vrac tous les trucs dont je veux parler :
 - **BNB** : bnb1w6hgq4tgde0my9nrasexqy2q02maqx9v3q2752
 - **EGLD** : erd1xy53cvkp2vajqe6szs3p2xayltvxp6twu8c3rhreu5wczlv6hxwse99w25
 - **XLM** : GDGD3ZDAWDJN7MZDIXGUQ2OAKGNFQ6TXGPWZMV6YKDVVHOSGBIZOUFA4
+
+(ou simplement @thibaultserti)
+
+## À mentionner
+
+- les oracles
+- les blockchains privées (hyperledger, ...)
