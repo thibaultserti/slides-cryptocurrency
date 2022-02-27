@@ -792,18 +792,80 @@ Chaque altcoin entend établir un ou des cas d'utilisations spécifiques.
 ---
 
 ## Ethereum
+<!-- .slide: class="big-slide" -->
+
+<div class="row">
+  <div class="column">
+    <ul>
+      <li>Créé en 2014 par Vitalik Buterin</li>
+      <li>Nouveau protocole utilisant un langage Turing Complet (contrairement à Bitcoin)</li>
+      <li>15 TPS</li>
+      <li>1 bloc toutes les 15 secondes</li>
+      <li>Frais payé en Gwei (1 Gwei = 10<sup>-6</sup>) appelé le gas</li>
+      <li>Ethereum c'est un protocole et un réseau, la cryptomonnaie permettant de payer le gas s'appelle l'ether</li>
+      <li>Contrats intelligents, création de tokens fongibles (ERC-20) ou non fongibles (ERC-721)</li>
+      <li>Fonctionne avec le Proof of Work, miné principalement par des GPU, 2 ETH par bloc de récompense</li>
+    </ul>
+  </div>
+  <div class="column">
+    <img src="img/ethereum_logo.png"/>
+  </div>
+</div>
+---
+
+## Ethereum 2.0
+
+<div class="row">
+  <div class="column">
+    <ul>
+      <li>Transition vers le Proof of Stake et utilisation de sharding afin d'augmenter drastiquement le TPS</li>
+      <li><b>Phase 0 (12/2020)</b> : la Beacon Chain, chaîne centrale d'exécution de code et de Proof of Stake</li>
+      <li><b>Phase 1 (Q2 2022)</b> : le merge, fusionne la Beacon Chain avec le réseau Ethereum 1.0, passage en Proof of Stake</li>
+      <li><b>Phase 2 (2023)   </b> : introduction du sharding, Ethereum 1.0 devenant une des 64 shards</li>
+    </ul>
+  </div>
+  <div class="column">
+    <img src="img/ethereum2_logo.png" width=40%/>
+  </div>
+</div>
 
 ---
 
-## Une nouvelle méthode de consensus
+## Une nouvelle méthode de consensus : le Proof of Stake
+<!-- .slide: class="big-slide" -->
 
+- Les validateurs
+  - 32 ETH pour devenir validateur
+  - Les validateurs peuvent subir des pénalités en cas de mauvais comportements
+  - Les validateurs récupèrent les frais en gas dépensés par les utilisiteurs du réseau
+- La Beacon Chain
+  - Maintient la sychronisation des shards
+  - Enregistre les stake des validateurs
+  - Choisit le validateur pour chaque bloc
+  - Un comité de 128 valideurs atteste le bloc
+  - Ce comité est reformé alétoirement tous les 32 blocs
+- Peu vulnérable à l'attaque à 51% car nécessite de posséder 51% des ETH stakés
 ---
 
 ## Le staking
+<!-- .slide: class="big-slide" -->
+
+<img src="img/eth_staking.png" width=70%/>
 
 ---
 
 ## Les Smart Contracts
+<!-- .slide: class="big-slide" -->
+
+- Code informatique (Solidity) exécuté par les validateurs, souvent mis à disposition via un frontend
+  - <b>Exemple</b> : le mécanisme de staking pour Eth2.0 est effectué via un contrat intelligent
+- Permet la développement d'applications décentralisées complexes
+  - Supprime les intermédiaires de confiance
+  - Contrat d'assurance
+  - Instruments financiers : options, obligations, actions, emprunt, ...
+  - Gouvernance et vote (⚠️ pas avec toutes les conditions d'un vote tel que l'on fait pour des élections politiques)
+
+<img src="img/smart_contract.png" width=25%/>
 
 ---
 
@@ -813,13 +875,43 @@ Chaque altcoin entend établir un ou des cas d'utilisations spécifiques.
 
 ## Coins vs Tokens
 
+- Ethereum  permet de créer des tokens qui vont pouvoir être échangé sur la blockchain (ERC-20)
+  - <b>Exemple</b> : le BAT, propulsé par Brave, l'USDC, stablecoin émis par Circle, adossé au dollar
+- Un coin est un token natif de blockchain (le token qui sert à payer les frais et à sécuriser la blockchain)
+- Certaines cryptomonnaies sont des coins sur une blockchain et des tokens sur d'autres
+  - <b>Exemple</b> : le WBTC, représentation du BTC sur Ethereum est un token
+- Passage d'une blockchain à une autre grâce à des bridges
+
+<img src="img/bridge.png" width=30%/>
+
 ---
 
 ## Les oracles
 
+<b>Problème</b> : seule les données disponibles sur la blockchain sont disponibles dans les smart contracts
+
+- Création d'un réseau d'oracle qui fait le lien entre le <em>onchain</em> et le <em>offchain</em>
+- Permet au smart contract de connaître :
+  - La température actuelle
+  - Le prix de l'or
+  - Le nombre d'abonné d'une chaine YouTube
+- Les opérateurs sont payés en token LINK lorsqu'ils donnent accès à des data offchain
+- Pour devenir opérateur, il faut déposer du LINK en garantie
+
+<img src="img/chainlink_logo.png" width=15%/>
+
 ---
 
-## La Defi
+## La Defi (Decentralize Finance)
+<!-- .slide: class="big-slide" -->
+
+Permet d'utiliser les outils de la finance de manière décentralisée :
+- Emprunt
+- Assurance
+- Actifs variés : actions, matière premières tokenisés, forex
+- Outils d'investissement : options, vente à découvert, levier
+
+<iframe data-src="https://app.aave.com" width=90% height=60%></iframe>
 
 ---
 
@@ -836,6 +928,14 @@ Chaque altcoin entend établir un ou des cas d'utilisations spécifiques.
 ---
 
 ## Les limites d'Ethereum
+
+- Expérience utilisateur complexe pour les débutants
+- Un système peu scalable : seulement 15 TPS
+- Des transactions chères : de 10 à 20$ (voir plus en cas de congestion) pour envoyer des ether ou des ERC-20
+- Des smart contrats très très chers (parfois plusieurs centaines de dollars en cas de congestion)
+- Une décentralisation imparfaite
+  - Nœuds très souvent hébergés sur le cloud public (~60% dont 25% sur AWS)
+  - Interaction avec les smart contract passent très souvent par des API centralisées comme Infura ou Alchemy
 
 ---
 
@@ -880,6 +980,9 @@ Chaque altcoin entend établir un ou des cas d'utilisations spécifiques.
       </div>
       <div class="column">
         <img src="img/kucoin_logo.png">
+      </div>
+      <div class="column">
+        <img src="img/coinbase_logo.png">
       </div>
     </div>
   </div>
@@ -951,7 +1054,10 @@ En vrac tous les trucs dont je veux parler :
 - https://github.com/bitcoinbook/bitcoinbook
 - https://github.com/ethereumbook/ethereumbook
 - https://coinmarketcap.com
-- https://www.youtube.com/watch?v=0ETcLj5jBy4
+- https://bitcoin.org
+- https://ethereum.org
+- [Le mystère Satoshi](https://www.youtube.com/watch?v=0ETcLj5jBy4)
+- [Whiteboard Crypto](https://www.youtube.com/channel/UCsYYksPHiGqXHPoHI-fm5sg)
 
 ---
 
@@ -972,10 +1078,3 @@ En vrac tous les trucs dont je veux parler :
 - **BNB** : bnb1w6hgq4tgde0my9nrasexqy2q02maqx9v3q2752
 - **EGLD** : erd1xy53cvkp2vajqe6szs3p2xayltvxp6twu8c3rhreu5wczlv6hxwse99w25
 - **XLM** : GDGD3ZDAWDJN7MZDIXGUQ2OAKGNFQ6TXGPWZMV6YKDVVHOSGBIZOUFA4
-
-(ou simplement @thibaultserti)
-
-## À mentionner
-
-- les oracles
-- les blockchains privées (hyperledger, ...)
