@@ -788,6 +788,10 @@ Chaque altcoin entend établir un ou des cas d'utilisations spécifiques.
   <li><b>Partition Tolerance</b> : aucune panne moins importante qu'une coupure totale du réseau ne doit empêcher le système de répondre correctement</li>
 </ul>
 
+---
+## Le trilemne blockchain
+
+<img src="img/CAP_blockchain.png" height=60% />
 
 ---
 
@@ -902,7 +906,7 @@ Chaque altcoin entend établir un ou des cas d'utilisations spécifiques.
 
 ---
 
-## La Defi (Decentralize Finance)
+## La Defi (Decentralized Finance)
 <!-- .slide: class="big-slide" -->
 
 Permet d'utiliser les outils de la finance de manière décentralisée :
@@ -911,29 +915,89 @@ Permet d'utiliser les outils de la finance de manière décentralisée :
 - Actifs variés : actions, matière premières tokenisés, forex
 - Outils d'investissement : options, vente à découvert, levier
 
-<iframe data-src="https://app.aave.com" width=90% height=60%></iframe>
+<img src="img/aave.png" width=80%/>
 
 ---
 
 ## Les NFT
 
+<div class="row">
+  <div class="column">
+    <ul>
+      <li>NFT : Token non fongible</li>
+      <li>Suis le standard ERC-721 sur Ethereum</li>
+      <li>Très très spéculatif</li>
+      <li>Très fortement utilisé pour blanchir de l'argent</li>
+      <li>Confusion entre la propriété intellectuelle et la possession d'un NFT</li>
+      <li>Un NFT est une signature d'un pointeur (souvent une URL), en aucun cas une œuvre en elle-même</li>
+      <li>Pointe vers un fichier très souvent <b>stocké offchain</b> (image, vidéo, musique, texte, ...)</li>
+      <li><a href="https://opensea.io">Opensea</a></li>
+    </ul>
+  </div>
+  <div class="column">
+    <img src="img/NFT_monkey.png"/>
+  </div>
+</div>
+
 ---
 
 ## Les PlayToEarn
+<!-- .slide: class="big-slide" -->
+
+- Implémentation d'un marché ouvert dans les jeux
+- Nécessite parfois (pas toujours) un investissement de départ
+- Les joueurs sont payés en tokens émis par le jeu pour leurs actions ingame
+- Les tokens émis servent de boost ou d'items dans le jeu
+- Possibilité de revendre ses items quand l'on part du jeu
+- Sans jeu, les items ne valent rien
+
+C'est une simple transposition du compte des joueurs dans une base de donnée centralisée à un wallet décentralisé
+
+<img src="img/axie_logo.png" width=30%/>
 
 ---
 
 ## Les Stablecoins
+<!-- .slide: class="big-slide" -->
+
+Token adossé à une monnaie fiat ou à un actif considéré comme stable (l'or par exemple)
+<ul>
+  <li>Collatéralisation</li>
+  <li>Garantir la stabilité</li>
+<ul>
+<br>
+<div class="row">
+  <div class="column">
+    Collatéralisation par des fiat, stablecoin centralisé
+    <div class="row">
+      <img src="img/usdt_logo.png" width=200px height=200px/>
+      <img src="img/usdc_logo.png" width=200px height=200px/>
+      <img src="img/busd_logo.png" width=200px height=200px/>
+    </div>
+    <div class="row">
+      <img src="img/jeur_logo.png" width=200px height=200px/>
+      <img src="img/paxg_logo.png" width=200px height=200px/>
+    </div>
+  </div>
+  <div class="column">
+    Collatéralisation par des cryptomonnaies, stablecoin décentralisé
+    <img src="img/dai_logo.png" width=200px height=200px/>
+  </div>
+  <div class="column">
+    Pas de collatéralisation, burn de 1$ de token pour créer un 1 UST, stablecoin algorithmique
+    <img src="img/ust_logo.png"width=200px height=200px/>
+  </div>
+</div>
 
 ---
 
 ## Les limites d'Ethereum
 
 - Expérience utilisateur complexe pour les débutants
-- Un système peu scalable : seulement 15 TPS
-- Des transactions chères : de 10 à 20$ (voir plus en cas de congestion) pour envoyer des ether ou des ERC-20
+- Un système <b>peu scalable</b> : seulement 15 TPS
+- Des <b>transactions chères</b> : de 10 à 20$ (voir plus en cas de congestion) pour envoyer des ether ou des ERC-20
 - Des smart contrats très très chers (parfois plusieurs centaines de dollars en cas de congestion)
-- Une décentralisation imparfaite
+- Une <b>décentralisation imparfaite</b>
   - Nœuds très souvent hébergés sur le cloud public (~60% dont 25% sur AWS)
   - Interaction avec les smart contract passent très souvent par des API centralisées comme Infura ou Alchemy
 
@@ -941,13 +1005,98 @@ Permet d'utiliser les outils de la finance de manière décentralisée :
 
 ## Les layers 2
 
+Permet de résoudre les problèmes de la scalabilité
+<br>
+
+<div class="row">
+  <div class="column">
+    <h3>Rollups</h3>
+    Fusionne des batchs de transactions en une seule transaction sur la chaine principale
+    <div class="row">
+      <div class="column">
+        <img src="img/arbitrum_logo.png" witdth=200px height=200px/>
+      </div>
+      <div class="column">
+        <img src="img/optimism_logo.png" width=200px height=200px/>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <h3>Sidechains</h3>
+    Entière blockchain détachée de la chaine principale
+    <img src="img/polygon_logo.png" width=200px height=200px/>
+  </div>
+  <div class="column">
+    <h3>Plasma</h3>
+    C'est compliqué 😓
+  </div>
+  <div class="column">
+    <h3>Channel</h3>
+    Permet d'échanger des représentations d'un coin détenu sur une blockchain
+    Pas de smart contract
+    <img src="img/lightning_logo.png" width=400px height=200px/>
+  </div>
+</div>
+
 ---
 
-## L'apparition de nouvelles blockchains
+## L'apparition de nouvelles blockchains d'infrastructure
+<!-- .slide: class="big-slide" -->
 
----
+<div class="row">
+  <div class="column">
+    <h3>Polkadot</h3>
+    <img src="img/polkadot_logo.png" width=160px height=160px/>
+    <ul>
+      <li>Inspiré de Ethereum</li>
+      <li>Interopérabilité, parachains, PoS</li>
+    </ul>
+  </div>
+  <div class="column">
+    <h3>Avalanche</h3>
+    <img src="img/avalanche_logo.png" width=160 height=160px/>
+    <ul>
+      <li>X-Chain, C-Chain, P-Chain</li>
+      <li>Snowflake consensus</li>
+    </ul>
+  </div>
+  <div class="column">
+    <h3>Binance Smart Chain</h3>
+    <img src="img/binance_logo.png" width=160px height=160px/>
+      <ul>
+      <li>Propulsé par Binance</li>
+      <li>Fork de Ethereum centralisé</li>
+    </ul>
+  </div>
+</div>
+<br>
+<div class="row">
+  <div class="column">
+    <h3>Polygon</h3>
+    <img src="img/polygon_logo.png" width=160px height=160px/>
+    <ul>
+      <li>Side Chain d'Ethereum</li>
+      <li>PoS, relativement décentralisé</li>
+    </ul>
+  </div>
+  <div class="column">
+    <h3>Solana</h3>
+    <img src="img/solana_logo.png" width=160px height=160px/>
+    <ul>
+      <li>Propulsé par FTX, centralisé</li>
+      <li>Techologie entièrement différente de Ethereum</li>
+    </ul>
+  </div>
+  <div class="column">
+    <h3>Elrond</h3>
+    <img src="img/elrond_logo.png" width=160px height=160px/>
+    <ul>
+      <li>Le meilleur de BTC et de ETH</li>
+      <li>Techologie entièrement différente de Ethereum (WASM)</li>
+    </ul>
+  </div>
+</div>
 
-## Quelques projets en vrac
 
 ---
 
@@ -1016,30 +1165,20 @@ Permet d'utiliser les outils de la finance de manière décentralisée :
 
 - DCA (<em>Dollar Cost Average</em>) : investir un peu à intervalle de temps régulier (par exemple semaine)
 - Acheter après des grosses baisses de 50% ou plus
-- NE JAMAIS acheter quand tout le monde en parle et que la courbe est parabolique
+- <b>NE JAMAIS</b> acheter quand tout le monde en parle et que la courbe est parabolique
+- Se former à l'analyse technique basique (RSI, MACD, retracement de Fibonacci, trendlines, vagues d'Elliot, orderflow, ...)
+- Rester les pieds sur terre, prendre du recul quand on entend que tel ou tel crypto est une révolution
+
 ---
 
 ## Random
 
 <!-- .slide: class="big-slide" -->
 
-En vrac tous les trucs dont je veux parler :
-
-- attaque des 51%
-- ETH, BSC (etherscan, bscscan)
-- les générations de blockchains (présentation de qqs blockchains d'infrastructure)
-- eth 2.0
-- NFT
-- Defi (lending/borrowing, liquidity providing, DEX)
-- Proof of Stake, Staking
-- les échangeurs (CEX, orders books, ...)
-- les stablecoins
-- comment se renseigner sur un projet (whitepaper, coinmarketcap, ...)
-- les layers 2
-- stratégies d'investissements (DCA, support, trading, ...)
-- cyclicité du BTC et des cryptomonnaies
-- les Play2Earn
-- les oracles
+- Utilisation des NFT pour authentification
+- Stratégies avancées en Defi, rendement sur des stablecoins
+- Programmation de Smart Contracts en Solidity
+- Ethereum Virtual Machine
 
 ---
 
