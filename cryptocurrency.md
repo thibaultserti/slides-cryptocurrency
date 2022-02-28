@@ -677,7 +677,7 @@ https://www.forbes.com/sites/stevenehrlich/2021/04/13/janet-yellen-bitcoin-and-c
 - Les émissions en CO<sub>2</sub> sont proportionnelles au hashrate du réseau, i.e à son nombre de machine
 - Les émissions en CO<sub>2</sub> ne sont pas directement proportionnelles à l'utilisation ponctuelle du réseau
 - L'augmentation du hashrate n'augmente pas les performances du réseau
-- <em>Théoriquement</em>, la sécurité augmente avec le hashrate car l'attaque des 51% devient plus difficile pour qqn d'extérieur
+- <em>Théoriquement</em>, la sécurité augmente avec le hashrate car l'attaque des 51% devient plus difficile
 
 ---
 ## Le Bitcoin pollue (4)
