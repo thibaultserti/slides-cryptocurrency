@@ -49,11 +49,6 @@ Thibault Ayanides
 
 #### 2.6 Dimensionnement du Bitcoin
 
-#### 2.7 Anonymat
-
-#### 2.8 Critiques
-
-#### 2.9 Limitations du Bitcoin
 
 ---
 
@@ -61,11 +56,17 @@ Thibault Ayanides
 
 <!-- .slide: class="align-left big-slide" -->
 
+#### 2.7 Anonymat
+
+#### 2.8 Critiques
+
+#### 2.9 Limitations du Bitcoin
+
 ### 3. Les Altcoins
 
 #### 3.1 Ethereum
 
-#### 3.2 Smart Contract
+#### 3.2 Smart Contracts
 
 #### 3.3 Defi
 
@@ -98,6 +99,7 @@ Thibault Ayanides
 ---
 
 ## Vous avez dit blocs ?
+<!-- .slide: class="big-slide" -->
 
 - Composées de plusieurs blocs
 - Chaque bloc contient un certain nombre d'enregistrement (transactions, documents, ...)
@@ -599,6 +601,7 @@ L'historique de toutes les transactions est dans la blockchain !
 ---
 
 ## Le Bitcoin est-il une monnaie ?
+<!-- .slide: class="big-slide" -->
 
 <div class="row">
   <div class="column">
@@ -687,7 +690,7 @@ https://www.forbes.com/sites/stevenehrlich/2021/04/13/janet-yellen-bitcoin-and-c
 - <b>Une transaction consomme énormément</b> : instantanément, le réseau consomme autant quelque soit la quantité de transactions
 - <b>Tout le monde peut miner</b> : le minage est fait avec du matériel spécialisé professionnel, les ASICS, obscolescents très rapidement
 - Le Bitcoin <b>consomme autant que le Danemark</b> : ne permet pas de se rendre compte de l'échelle et induit un biais
-- Le Bitcoin <b>consomme moins que les appareils en veille et que les décorations de Noël</b> idem
+- Le Bitcoin <b>consomme moins que les appareils en veille et que les décorations de Noël</b> : idem
 
 ---
 ## Le Bitcoin pollue (5)
@@ -708,7 +711,7 @@ https://www.forbes.com/sites/stevenehrlich/2021/04/13/janet-yellen-bitcoin-and-c
     <ul>
       <li>~1400 TPS, max 25 000 TPS</sub></li>
       <li>~10 secondes pour la confirmation</li>
-      <li>1 à 2 millions de fois plus consommateur en énergie / émetteur de CO<sub>2</sub> que Bitcoin</li>
+      <li>1 à 2 millions de fois moins consommateur en énergie / émetteur de CO<sub>2</sub> que Bitcoin</li>
     <ul>
   </div>
 </div>
@@ -798,7 +801,7 @@ Chaque altcoin entend établir un ou des cas d'utilisations spécifiques.
 <ul>
   <li><b>Consistency</b> : tous les nœuds du système voient exactement les mêmes données au même moment</li>
   <li><b>Availability</b> : garantie que toutes les requêtes reçoivent une réponse</li>
-  <li><b>Partition Tolerance</b> : aucune panne moins importante qu'une coupure totale du réseau ne doit empêcher le système de répondre correctement</li>
+  <li><b>Partition Tolerance</b> : dans le cas d'une panne réseau, choisir entre C et A</li>
 </ul>
 
 ---
@@ -1230,4 +1233,3 @@ Permet de résoudre les problèmes de la scalabilité
 - **ETH** : 0xf39b36242bd9E3aa1269C40367369e012936342B
 - **BNB** : bnb1w6hgq4tgde0my9nrasexqy2q02maqx9v3q2752
 - **EGLD** : erd1xy53cvkp2vajqe6szs3p2xayltvxp6twu8c3rhreu5wczlv6hxwse99w25
-- **XLM** : GDGD3ZDAWDJN7MZDIXGUQ2OAKGNFQ6TXGPWZMV6YKDVVHOSGBIZOUFA4
