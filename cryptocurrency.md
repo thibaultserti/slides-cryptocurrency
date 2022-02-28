@@ -63,6 +63,19 @@ Thibault Ayanides
 
 ### 3. Les Altcoins
 
+#### 3.1 Ethereum
+
+#### 3.2 Smart Contract
+
+#### 3.3 Defi
+
+#### 3.4 NFT
+
+#### 3.5 Stablecoins
+
+#### 3.6 Layer 1 et Layer 2
+
+
 ### 4. Investissements ?
 
 ---
@@ -1139,6 +1152,7 @@ Permet de résoudre les problèmes de la scalabilité
     <img src="img/orders.png" width=30%>
   </div>
 </div>
+
 ---
 
 ## Les échangeurs décentralisés (DEX)
@@ -1149,14 +1163,14 @@ Permet de résoudre les problèmes de la scalabilité
 - Les traders peuvent venir faire leurs échanges dans cette pool en payant des frais aux fournisseurs de liquidité
 - Géré par un smart contract
 
-<iframe data-src="https://app.uniswap.org/#/swap" width=100% height=50%>
+<img src="img/uniswap.png" width=80%/>
 
 ---
 
 ## Cyclicité du Bitcoin et des cryptomonnaies
 <!-- .slide: class="big-slide" -->
 
-<img src="https://www.tradingview.com/x/57vUSvZs/" height=80%>
+<img src="https://www.tradingview.com/x/57vUSvZs/" height=100%>
 
 
 ---
