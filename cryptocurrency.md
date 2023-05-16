@@ -87,7 +87,7 @@ Thibault Ayanides
 
 ## Blockchain
 
-- Technologie de transmission et de stockage et de stockage d'information
+- Technologie de transmission et de stockage d'information
 - Base de données distribuée ou non
 - Registre d'enregistrement
 - Incorpore des mécanismes de sécurisation et de protection contre la falsification fondées sur la cryptographie
@@ -265,7 +265,7 @@ Une cryptomonnaie parmi beaucoup d'autres !
 
 <!-- .slide: class="big-slide" -->
 
-<img src="img/bitcoin_transaction.png" width=60%>
+<img src="img/bitcoin_transaction1.png" width=60%>
 
 ---
 
@@ -342,7 +342,7 @@ Exemples:
 
 <!-- .slide: class="big-slide" -->
 
-<img src="img/bitcoin_transaction.png" width=60%>
+<img src="img/bitcoin_transaction2.png" width=60%>
 
 ---
 
@@ -388,7 +388,7 @@ Exemples:
 
 <!-- .slide: class="big-slide" -->
 
-<img src="img/bitcoin_transaction.png" width=60%>
+<img src="img/bitcoin_transaction3.png" width=60%>
 
 ---
 
