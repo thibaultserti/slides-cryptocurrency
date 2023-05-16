@@ -1221,15 +1221,8 @@ Permet de résoudre les problèmes de la scalabilité
 
 <!-- .slide: class="big-slide" -->
 
-- **Swissborg** : https://join.swissborg.com/r/thibauOYKV
-- **Nexo** : https://nexo.io/ref/hxkgumrvxz?src=android-link
-- **Crypto.com App** : https://crypto.com/app/7p7jkbp5sj
-- **Crypto.com Exchange** : https://crypto.com/exch/7p7jkbp5sj
 - **Binance** : https://accounts.binance.com/fr/register?ref=81135148
-- **FTX** : https://ftx.com/#a=12460172
-- **Maiar** : https://get.maiar.com/referral/tp1qokr73z
 
 - **BTC** : bc1qyk62saxsgl5ng2mk54ue6ftgudkjyg0a0x3xrk
 - **ETH** : 0xf39b36242bd9E3aa1269C40367369e012936342B
 - **BNB** : bnb1w6hgq4tgde0my9nrasexqy2q02maqx9v3q2752
-- **EGLD** : erd1xy53cvkp2vajqe6szs3p2xayltvxp6twu8c3rhreu5wczlv6hxwse99w25
